@@ -1,0 +1,38 @@
+{
+    "name": "schnack-plugin-auth-mastodon",
+    "version": "1.0.0",
+    "description": "Mastodon OAuth authentication for Schnack",
+    "keywords": [
+        "oauth",
+        "mastodon",
+        "passport",
+        "schnack"
+    ],
+    "author": "Gregor Aisch <gka@users.noreply.github.com>",
+    "homepage": "https://github.com/schn4ck/schnack-plugins#readme",
+    "license": "LicenseRef-LICENSE",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "index.js"
+    ],
+    "prettier": {
+        "tabWidth": 4,
+        "semi": true,
+        "printWidth": 100,
+        "singleQuote": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/schn4ck/schnack-plugins.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/schn4ck/schnack-plugins/issues"
+    }
+}
