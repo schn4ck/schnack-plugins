@@ -1,4 +1,4 @@
-# `schnack-plugin-auth-facebook`
+# schnack-plugin-auth-facebook
 
 > TODO: description
 

@@ -9,7 +9,21 @@
         "schnack"
     ],
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
-    "homepage": "https://github.com/schn4ck/schnack-plugins#readme",
+    "contributors": [
+        {
+            "name": "Gregor Aisch",
+            "web": "https://driven-by-data.net"
+        },
+        {
+            "name": "Moritz Klack",
+            "web": "https://moritzklack.com"
+        },
+        {
+            "name": "g-div",
+            "web": "https://github.com/g-div"
+        }
+    ],
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-google#readme",
     "license": "LicenseRef-LICENSE",
     "main": "index.js",
     "directories": {
