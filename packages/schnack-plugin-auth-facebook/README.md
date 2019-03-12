@@ -1,11 +1,24 @@
 # schnack-plugin-auth-facebook
 
-> TODO: description
+Adds Facebook OAuth authentication to your Schnack server.
 
 ## Usage
 
-```
-const schnackPluginAuthFacebook = require('schnack-plugin-auth-facebook');
+Add a `plugins.plugins-facebook` section to your Schnack config file `schnack.json`:
 
-// TODO: DEMONSTRATE API
+```json
+{
+    "plugins": {
+        "auth-facebook": {
+            "client_id": "XXX",
+            "client_secret": "XXX"
+        }
+    }
+}
+```
+
+Then run
+
+```
+npm init schnack
 ```
