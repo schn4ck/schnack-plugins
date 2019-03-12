@@ -1,11 +1,24 @@
-# `schnack-plugin-auth-facebook`
+# schnack-plugin-auth-github
 
-> TODO: description
+Adds GitHub OAuth authentication to your Schnack server.
 
 ## Usage
 
-```
-const schnackPluginAuthFacebook = require('schnack-plugin-auth-facebook');
+Add a `plugins.plugins-github` section to your Schnack config file `schnack.json`:
 
-// TODO: DEMONSTRATE API
+```json
+{
+    "plugins": {
+        "auth-github": {
+            "client_id": "XXX",
+            "client_secret": "XXX"
+        }
+    }
+}
+```
+
+Then run
+
+```
+npm init schnack
 ```
