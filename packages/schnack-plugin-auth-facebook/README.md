@@ -4,7 +4,7 @@ Adds Facebook OAuth authentication to your Schnack server.
 
 ## Usage
 
-Add a `plugins.plugins-facebook` section to your Schnack config file `schnack.json`:
+Add a `plugins.auth-facebook` section to your Schnack config file `schnack.json`:
 
 ```json
 {

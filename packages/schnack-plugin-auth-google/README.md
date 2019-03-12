@@ -4,7 +4,7 @@ Adds Google OAuth authentication to your Schnack server.
 
 ## Usage
 
-Add a `plugins.plugins-google` section to your Schnack config file `schnack.json`:
+Add a `plugins.auth-google` section to your Schnack config file `schnack.json`:
 
 ```json
 {

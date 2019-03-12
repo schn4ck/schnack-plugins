@@ -4,7 +4,7 @@ Adds GitHub OAuth authentication to your Schnack server.
 
 ## Usage
 
-Add a `plugins.plugins-github` section to your Schnack config file `schnack.json`:
+Add a `plugins.auth-github` section to your Schnack config file `schnack.json`:
 
 ```json
 {
