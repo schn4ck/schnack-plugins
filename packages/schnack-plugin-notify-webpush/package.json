@@ -1,6 +1,6 @@
 {
     "name": "schnack-plugin-notify-webpush",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Webpush notifications for Schnack",
     "keywords": [
         "notification",
