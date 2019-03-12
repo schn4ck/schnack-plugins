@@ -1,11 +1,24 @@
-# `schnack-plugin-auth-facebook`
+# schnack-plugin-auth-mastodon
 
-> TODO: description
+Adds Mastodon OAuth authentication to your Schnack server.
 
 ## Usage
 
-```
-const schnackPluginAuthFacebook = require('schnack-plugin-auth-facebook');
+Add a `plugins.auth-mastodon` section to your Schnack config file `schnack.json`:
 
-// TODO: DEMONSTRATE API
+```json
+{
+    "plugins": {
+        "auth-mastodon": {
+            "app_name": "XXX",
+            "app_website": "XXX"
+        }
+    }
+}
+```
+
+Then run
+
+```
+npm init schnack
 ```
