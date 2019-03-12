@@ -1,11 +1,24 @@
-# `schnack-plugin-auth-facebook`
+# schnack-plugin-auth-google
 
-> TODO: description
+Adds Google OAuth authentication to your Schnack server.
 
 ## Usage
 
-```
-const schnackPluginAuthFacebook = require('schnack-plugin-auth-facebook');
+Add a `plugins.plugins-google` section to your Schnack config file `schnack.json`:
 
-// TODO: DEMONSTRATE API
+```json
+{
+    "plugins": {
+        "auth-google": {
+            "client_id": "XXX",
+            "client_secret": "XXX"
+        }
+    }
+}
+```
+
+Then run
+
+```
+npm init schnack
 ```
