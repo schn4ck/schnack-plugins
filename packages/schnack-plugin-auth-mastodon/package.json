@@ -1,6 +1,6 @@
 {
     "name": "schnack-plugin-auth-mastodon",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Mastodon OAuth authentication for Schnack",
     "keywords": [
         "oauth",
