@@ -42,6 +42,10 @@
         "type": "git",
         "url": "git+https://github.com/schn4ck/schnack-plugins.git"
     },
+    "dependencies": {
+        "node-fetch": "^2.3.0",
+        "passport-mastodon": "^0.1.3"
+    },
     "directories": {
         "lib": "lib",
         "test": "__tests__"
