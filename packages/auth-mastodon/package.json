@@ -1,6 +1,6 @@
 {
     "name": "@schnack/plugin-auth-mastodon",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Mastodon OAuth authentication for Schnack",
     "keywords": [
         "oauth",
