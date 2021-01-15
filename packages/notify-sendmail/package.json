@@ -1,11 +1,10 @@
 {
-    "name": "schnack-plugin-auth-google",
-    "version": "0.2.0",
-    "description": "Google OAuth authentication for Schnack",
+    "name": "@schnack/plugin-notify-sendmail",
+    "version": "0.1.0",
+    "description": "Sendmail notification for Schnack",
     "keywords": [
-        "oauth",
-        "google",
-        "passport",
+        "notification",
+        "sendmail",
         "schnack"
     ],
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
@@ -23,7 +22,7 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-google#readme",
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-notify-sendmail#readme",
     "license": "LicenseRef-LICENSE",
     "main": "index.js",
     "directories": {
@@ -48,10 +47,5 @@
     },
     "bugs": {
         "url": "https://github.com/schn4ck/schnack-plugins/issues"
-    },
-    "dependencies": {
-        "node-fetch": "^2.3.0",
-        "passport-google-oauth20": "^2.0.0",
-        "passport-mastodon": "^0.1.3"
     }
 }

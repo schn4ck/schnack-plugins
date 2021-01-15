@@ -1,10 +1,11 @@
 {
-    "name": "schnack-plugin-notify-sendmail",
+    "name": "@schnack/plugin-auth-github",
     "version": "0.1.0",
-    "description": "Sendmail notification for Schnack",
+    "description": "Github OAuth authentication for Schnack",
     "keywords": [
-        "notification",
-        "sendmail",
+        "oauth",
+        "github",
+        "passport",
         "schnack"
     ],
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
@@ -22,7 +23,7 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-notify-sendmail#readme",
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-github#readme",
     "license": "LicenseRef-LICENSE",
     "main": "index.js",
     "directories": {
@@ -47,5 +48,8 @@
     },
     "bugs": {
         "url": "https://github.com/schn4ck/schnack-plugins/issues"
+    },
+    "dependencies": {
+        "passport-github2": "^0.1.11"
     }
 }

@@ -1,11 +1,10 @@
 {
-    "name": "schnack-plugin-auth-twitter",
+    "name": "@schnack/plugin-notify-slack",
     "version": "0.1.0",
-    "description": "Twitter OAuth authentication for Schnack",
+    "description": "Slack notifications for Schnack",
     "keywords": [
-        "oauth",
-        "twitter",
-        "passport",
+        "notification",
+        "slack",
         "schnack"
     ],
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
@@ -23,7 +22,7 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-twitter#readme",
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-notify-slack#readme",
     "license": "LicenseRef-LICENSE",
     "main": "index.js",
     "directories": {
@@ -50,6 +49,6 @@
         "url": "https://github.com/schn4ck/schnack-plugins/issues"
     },
     "dependencies": {
-        "passport-twitter": "^1.0.4"
+        "request": "^2.88.0"
     }
 }

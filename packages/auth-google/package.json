@@ -1,10 +1,10 @@
 {
-    "name": "schnack-plugin-auth-github",
-    "version": "0.1.0",
-    "description": "Github OAuth authentication for Schnack",
+    "name": "@schnack/plugin-auth-google",
+    "version": "0.2.0",
+    "description": "Google OAuth authentication for Schnack",
     "keywords": [
         "oauth",
-        "github",
+        "google",
         "passport",
         "schnack"
     ],
@@ -23,7 +23,7 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-github#readme",
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-google#readme",
     "license": "LicenseRef-LICENSE",
     "main": "index.js",
     "directories": {
@@ -50,6 +50,8 @@
         "url": "https://github.com/schn4ck/schnack-plugins/issues"
     },
     "dependencies": {
-        "passport-github2": "^0.1.11"
+        "node-fetch": "^2.3.0",
+        "passport-google-oauth20": "^2.0.0",
+        "passport-mastodon": "^0.1.3"
     }
 }
