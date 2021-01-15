@@ -1,6 +1,6 @@
 {
     "name": "@schnack/plugin-auth-google",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Google OAuth authentication for Schnack",
     "private": false,
     "keywords": [
