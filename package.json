@@ -4,6 +4,10 @@
         "format": "prettier 'packages/**/*.js' --write",
         "lint": "prettier --check 'packages/**/*.{js,html}' && healthier 'packages/**/*.{js,html}'"
     },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:schn4ck/schnack-plugins"
+    },
     "devDependencies": {
         "babel-eslint": "^10.0.1",
         "healthier": "^2.0.0",

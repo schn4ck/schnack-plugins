@@ -2,13 +2,20 @@
     "name": "@schnack/plugin-notify-sendmail",
     "version": "0.1.2",
     "description": "Sendmail notification for Schnack",
-    "private": false,
     "keywords": [
         "notification",
         "sendmail",
         "schnack"
     ],
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-notify-sendmail#readme",
+    "bugs": {
+        "url": "https://github.com/schn4ck/schnack-plugins/issues"
+    },
+    "license": "LicenseRef-LICENSE",
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
+    "publishConfig": {
+        "access": "public"
+    },
     "contributors": [
         {
             "name": "Gregor Aisch",
@@ -23,30 +30,26 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-notify-sendmail#readme",
-    "license": "LicenseRef-LICENSE",
+    "files": [
+        "index.js"
+    ],
     "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/schn4ck/schnack-plugins.git"
+    },
     "directories": {
         "lib": "lib",
         "test": "__tests__"
     },
-    "files": [
-        "index.js"
-    ],
     "prettier": {
         "tabWidth": 4,
         "semi": true,
         "printWidth": 100,
         "singleQuote": true
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/schn4ck/schnack-plugins.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "bugs": {
-        "url": "https://github.com/schn4ck/schnack-plugins/issues"
-    }
+    "gitHead": "dec04a728e7099930ec5fc807bb1365db2162ec6"
 }

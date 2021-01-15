@@ -2,14 +2,21 @@
     "name": "@schnack/plugin-auth-twitter",
     "version": "0.1.2",
     "description": "Twitter OAuth authentication for Schnack",
-    "private": false,
     "keywords": [
         "oauth",
         "twitter",
         "passport",
         "schnack"
     ],
+    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-twitter#readme",
+    "bugs": {
+        "url": "https://github.com/schn4ck/schnack-plugins/issues"
+    },
+    "license": "LicenseRef-LICENSE",
     "author": "Gregor Aisch <gka@users.noreply.github.com>",
+    "publishConfig": {
+        "access": "public"
+    },
     "contributors": [
         {
             "name": "Gregor Aisch",
@@ -24,33 +31,29 @@
             "web": "https://github.com/g-div"
         }
     ],
-    "homepage": "https://github.com/schn4ck/schnack-plugins/blob/master/packages/schnack-plugin-auth-twitter#readme",
-    "license": "LicenseRef-LICENSE",
+    "files": [
+        "index.js"
+    ],
     "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/schn4ck/schnack-plugins.git"
+    },
     "directories": {
         "lib": "lib",
         "test": "__tests__"
     },
-    "files": [
-        "index.js"
-    ],
+    "dependencies": {
+        "passport-twitter": "^1.0.4"
+    },
     "prettier": {
         "tabWidth": 4,
         "semi": true,
         "printWidth": 100,
         "singleQuote": true
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/schn4ck/schnack-plugins.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "bugs": {
-        "url": "https://github.com/schn4ck/schnack-plugins/issues"
-    },
-    "dependencies": {
-        "passport-twitter": "^1.0.4"
-    }
+    "gitHead": "dec04a728e7099930ec5fc807bb1365db2162ec6"
 }
