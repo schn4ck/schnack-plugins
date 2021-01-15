@@ -2,6 +2,7 @@
     "name": "@schnack/plugin-auth-mastodon",
     "version": "0.1.1",
     "description": "Mastodon OAuth authentication for Schnack",
+    "private": false,
     "keywords": [
         "oauth",
         "mastodon",

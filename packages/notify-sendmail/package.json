@@ -2,6 +2,7 @@
     "name": "@schnack/plugin-notify-sendmail",
     "version": "0.1.1",
     "description": "Sendmail notification for Schnack",
+    "private": false,
     "keywords": [
         "notification",
         "sendmail",

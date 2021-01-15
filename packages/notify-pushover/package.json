@@ -1,7 +1,8 @@
 {
-    "name": "schnack-plugin-notify-pushover",
+    "name": "@schnack/plugin-notify-pushover",
     "version": "0.1.1",
     "description": "Pushover notification for Schnack",
+    "private": false,
     "keywords": [
         "notification",
         "pushover",

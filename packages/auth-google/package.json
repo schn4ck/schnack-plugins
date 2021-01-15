@@ -2,6 +2,7 @@
     "name": "@schnack/plugin-auth-google",
     "version": "0.2.1",
     "description": "Google OAuth authentication for Schnack",
+    "private": false,
     "keywords": [
         "oauth",
         "google",
