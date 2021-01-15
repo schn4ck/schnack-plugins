@@ -29,6 +29,11 @@ module.exports = ({ config, host, app }) => {
                     reply.redirect('/success');
                 }
             );
+            return {
+                getAuthorUrl({ name }) {
+                    return `https://twitter.com/${name}`;
+                }
+            };
         }
     };
 };
