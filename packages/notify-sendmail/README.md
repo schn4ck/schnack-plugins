@@ -1,11 +1,24 @@
-# `schnack-plugin-auth-facebook`
+# notify-sendmail
 
-> TODO: description
+If you configure the plugin `notify-sendmail` *schnack* will use your web servers `sendmail` program to send an email to you every time a comment is awaiting your approval. Note that you may need to [configure sendmail on your server](https://duckduckgo.com/?q=configure+sendmail&) before this is working.
 
 ## Usage
 
-```
-const schnackPluginAuthFacebook = require('schnack-plugin-auth-facebook');
+Add a `plugins.notify-sendmail` section to your Schnack config file `schnack.json`:
 
-// TODO: DEMONSTRATE API
+```json
+{
+    "plugins": {
+        "notify-sendmail": {
+            "to": "your-email@example.com",
+            "from": "schnack@blog.example.com"
+        }
+    }
+}
+```
+
+Then run
+
+```
+npm init schnack
 ```

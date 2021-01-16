@@ -1,6 +1,6 @@
-# schnack-plugin-auth-google
+# auth-google
 
-Adds Google OAuth authentication to your Schnack server.
+Adds Google OAuth authentication to your [Schnack](https://github.com/schn4ck/schnack) server.
 
 ## Usage
 

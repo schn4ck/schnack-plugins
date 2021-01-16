@@ -1,6 +1,6 @@
-# schnack-plugin-auth-facebook
+# auth-facebook
 
-Adds Facebook OAuth authentication to your Schnack server.
+Adds Facebook OAuth authentication to your [Schnack](https://github.com/schn4ck/schnack) server.
 
 ## Usage
 

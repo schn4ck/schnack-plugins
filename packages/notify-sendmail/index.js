@@ -17,8 +17,8 @@ module.exports = ({ config, host, app, events }) => {
     };
 };
 
-function createEmailBody(config, page_url, event) {
-    const postUrl = page_url.replace('%SLUG%', event.slug);
+function createEmailBody(config, pageUrl, event) {
+    const postUrl = pageUrl.replace('%SLUG%', event.slug);
     const user = event.user.display_name || event.user.name;
     const body = `
 To: Schnack Admin <${config.to}>
