@@ -1,6 +1,6 @@
 {
     "name": "@schnack/plugin-auth-facebook",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Facebook OAuth authentication for Schnack",
     "keywords": [
         "oauth",
