@@ -13,7 +13,7 @@
         "healthier": "^2.0.0",
         "husky": "^1.3.1",
         "lerna": "^3.13.1",
-        "lint-staged": "^8.1.5",
+        "lint-staged": "^13.1.0",
         "prettier": "^1.16.4"
     },
     "husky": {
