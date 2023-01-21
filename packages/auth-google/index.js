@@ -37,5 +37,3 @@ module.exports = ({ config, host, app }) => {
         }
     };
 };
-
-module.exports = {};
